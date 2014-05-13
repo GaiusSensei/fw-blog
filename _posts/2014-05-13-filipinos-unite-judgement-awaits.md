@@ -16,7 +16,13 @@ Nunc pulvinar quis felis sit amet bibendum. Aliquam semper dui sollicitudin nequ
 ~Gaius (Site Mod)
 
 ## Card Spotlight: Lantern, the Spirit of Grave Keeper
+
 <div class="pull-right">
-    ![Lantern, the Spirit of Grave Keeper](assets/images/EN2/119.jpg)
+    <img src="assets/images/EN2/119.jpg" alt="Lantern, the Spirit of Grave Keeper" class="img-responsive img-rounded" />
 </div>
+
 Aenean vitae est id erat pharetra convallis. Curabitur non nulla pretium purus tincidunt suscipit in mattis nulla. Donec ultricies sit amet ante sit amet pulvinar. Morbi gravida libero ac porta viverra. Vivamus fermentum interdum varius. Maecenas vel nulla eget mauris iaculis tempus. Mauris turpis purus, ullamcorper ut iaculis id, dictum semper quam.
+
+### Tactics
+
+Aliquam semper dui sollicitudin neque varius pretium. Donec convallis dolor et leo lacinia, non vestibulum erat.
