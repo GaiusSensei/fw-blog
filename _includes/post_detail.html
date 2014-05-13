@@ -1,12 +1,13 @@
 <h1 class="entry-title">
 {% if post.title %}
-<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 {% endif %}
 </h1>
 <div class="entry-content">{{ content }}</div>
 
 <hr>
 
+<a href="{{ BASE_PATH }}{{ post.url }}">View Comments</a>
 <ul class="pager">
     {% if page.previous %}
     <li class="previous"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
@@ -19,5 +20,5 @@
     </li>
     {% else %}
     <li class="next disabled"><a>Next &rarr;</a>
-        {% endif %}
+    {% endif %}
 </ul>
