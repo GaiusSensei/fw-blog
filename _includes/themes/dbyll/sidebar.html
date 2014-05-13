@@ -1,7 +1,7 @@
 <! -- sidebar.html -->
 <header class="sidebar-header" role="banner">
     <a href="{% if BASE_PATH %}{{ BASE_PATH }}{% else %}/{% endif %}">
-        <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
+        <img src="{{ BASE_PATH }}/assets/images/logo.png" class="img-rounded" />
     </a>
     <h3 class="title">
         <a href="{% if BASE_PATH %}{{ BASE_PATH }}{% else %}/{% endif %}">{{ site.title }}</a>
@@ -21,6 +21,8 @@
         <li><a href="#"><h4>How to Play</h4></a>
         </li>
         <li><a href="#"><h4>Judge Program</h4></a>
+        </li>
+        <li><a href="{{ BASE_PATH }}/calendar"><h4>Calendar of Events</h4></a>
         </li>
         <li><a href="{{ BASE_PATH }}/archive.html"><h4>Older Posts</h4></a>
         </li>

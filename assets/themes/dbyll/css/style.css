@@ -5,8 +5,8 @@
     margin-bottom: 0px;
 }
 
-.blog-index {
-    min-height:450px;
+.blog-index, .page-content {
+    min-height:500px;
 }
 
 body{
@@ -72,16 +72,16 @@ article{
 article.home div a, article.home pre a { color: #2c3e50; }
 article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
 
-h1,h2,h3,h4,h5,h6{ font-family: 'Ubuntu', sans-serif; color: #f2756a; }
-h1 a,h2 a,h3 a,h4 a{ color: #f2756a; }
-h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover{ color: #e74c3c; }
+h1,h2,h3,h4,h5,h6{ font-family: 'Ubuntu', sans-serif; color: #000080; }
+h1 a,h2 a,h3 a,h4 a{ color: #000080; }
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover{ color: #19198c; }
 
 footer {
   padding-top: 15px;
   font-family: 'Ubuntu';
 }
 
-.badge { background: #F2756A; }
+.badge { background: #000080; }
 
 #nav-menu{
   position: fixed;
