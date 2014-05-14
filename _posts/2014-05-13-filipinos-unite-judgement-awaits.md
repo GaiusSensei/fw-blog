@@ -7,7 +7,7 @@ tags: [cardspotlight, news]
 ---
 {% include JB/setup %}
 
-Hello, World! Welcome to the grand opening, the launch of Force of Will Philippines website and blog. If you're a filipino, and you're curious/addicted/confused regarding the new hotness, the Trading Card Game "Force of Will" (FoW), then our website will your one-stop shop regarding everything FoW.    
+Hello, World! Welcome to the launch of the Force of Will Philippines website and blog. If you're a filipino, and you're curious/ addicted/ confused regarding the new hotness, the Trading Card Game "Force of Will" (FoW), then our website will be your one-stop shop regarding everything FoW.    
 
 Here's a sneak peak of what's in the pipeline:    
 
@@ -20,11 +20,15 @@ Stay tuned, and stay excited!
 
 ~Gaius (Site Mod)
 
-<div class="pull-right">
+<div class="hidden-xs pull-right">
     <img src="{{BASE_PATH}}/assets/images/EN2/119.jpg" alt="Lantern, the Spirit of Grave Keeper" class="img-responsive img-rounded" />
 </div>
 
 ## Card Spotlight: Lantern, the Spirit of Grave Keeper  
+
+<div class="visible-xs col-xs-12">
+    <img src="{{BASE_PATH}}/assets/images/EN2/119.jpg" alt="Lantern, the Spirit of Grave Keeper" class="img-responsive img-rounded" />
+</div>
 
 Lantern is a Darkness Resonator on the first english set. It has a cost of just [D] (no generic), and a whopping 500 attack and defense. However, when this card is put into a graveyard, it is permanently destroyed.  
 

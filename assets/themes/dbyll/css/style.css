@@ -1,4 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
+
+.blog-index > .img-responsive, .page-content > .img-responsive {
+    margin: 0 auto;
+}
 
 .page-header {
     padding-bottom: 0px;
