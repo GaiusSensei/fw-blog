@@ -13,7 +13,7 @@ title : Force of Will Philippines
 tagline: Judgement Activate! Ares, the Knight God-Emperor!
 author :
   name : Gaius Capistrano
-  email : gaius@about.me
+  email : gaius@forceofwill.info
   facebook : forceofwillphilippines
 
 # The production_url is only used when full-domain names are needed
@@ -53,7 +53,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : https://gaiussensei.github.io/fw-blog
+  # BASE_PATH : https://gaiussensei.github.io/fw-blog
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -89,7 +89,6 @@ JB :
     facebook :
       appid : 1448398612072547
       num_posts: 10
-      width: 700
       colorscheme: light
    
   # Settings for analytics helper
