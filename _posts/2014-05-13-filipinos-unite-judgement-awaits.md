@@ -34,8 +34,10 @@ Lantern is a Darkness Resonator on the first english set. It has a cost of just 
 
 ### Tactics  
 
-With a cost of one will, a 500 attack and defense resonator is a beast on turn one. If your deck is Darkness heavy already, then including a set of Lantern is a no brainer- yes, it has a drawback of being removed from the game when destroyed, but if it can swing on turn two and deal damage, then this card has already paid for itself. If your opponent burns a removal to kill it, then you have just set the tempo of the game, since most spells that can kill Lantern costs more than what you paid to summon him. Even on late game, dealing 500 damage on either a resonator or your opponent is still a significant amount of damage, especially if it only costs 1 will.  
+With a coverted cost of just one will, a 500 attack and defense resonator is a beast on turn one. If your deck is Darkness heavy already, then including a set of Lantern is a no brainer- yes, it has a drawback of being removed from the game when destroyed, but if it can swing on turn two and deal damage, then this card has already paid for itself. If your opponent burns a removal to kill it, then you have just set the tempo of the game, since most spells that can kill Lantern costs more than what you paid to summon him. Even on late game, dealing 500 damage on either a resonator or your opponent is still a significant amount of damage, especially if it only costs 1 will.  
+
+A [F][D] Tempo Deck, with Ushuah, the Flame Samurai Swordsman as the ruler would let a turn 1 Lantern swing immediately, assuming you draw the Lantern in your starting hand and get a [D] Magic Stone on your Call Phase.
 
 ### Checks and Counters  
 
-A cheap wall on turn one will delay Lantern, until a beefier turn two resonator can take him. It may be tempting to kill it with a spell, but only do so if you have no other choice. If you can wall Lantern off until you the second or third turn, then you'd have enough will to block AND kill it, saving your removal for other threats.  
+A cheap wall on turn one and two will delay Lantern, until a beefier turn three resonator can take him. It may be tempting to kill it with a spell, but only do so if you have no other choice. If you can wall Lantern off until you the third or fourth turn, then you'd have enough magic stones to block AND kill it, saving your removal for other threats.  
