@@ -14,17 +14,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            {% if site.author.facebook %}
             <a type="button" class="navbar-toggle nav-link" href="https://www.facebook.com/{{ site.author.facebook }}">
                 <i class="fa fa-facebook"></i>
             </a>
-            {% endif %} {% if site.author.email %}
-            <a type="button" class="navbar-toggle nav-link" href="mailto:{{ site.author.email }}">
-                <i class="fa fa-envelope"></i>
+            <a type="button" class="navbar-toggle nav-link" href="http://www.reddit.com/r/forceofwill">
+                <i class="fa fa-beer fa-lg"></i>
             </a>
-            {% endif %}
-            <a type="button" class="navbar-toggle nav-link" href="{{ BASE_PATH }}{{ site.JB.rss_path }}">
-                <i class="fa fa-rss"></i>
+            <a type="button" class="navbar-toggle nav-link" href="http://gplus.to/forceofwill">
+                <i class="fa fa-google-plus fa-lg"></i>
             </a>
             <a class="navbar-brand" href="{% if BASE_PATH %}{{ BASE_PATH }}{% else %}/{% endif %}">
                 <img src="{{ BASE_PATH }}/assets/images/logo.png" class="img-rounded" />
@@ -34,11 +31,17 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="{% if BASE_PATH %}{{ BASE_PATH }}{% else %}/{% endif %}">Home</a>
+                <li><a href="{% if BASE_PATH %}{{ BASE_PATH }}{% else %}/{% endif %}">Home</a>
                 </li>
-                <li><a href="{{ BASE_PATH}}{{ site.JB.categories_path }}">Categories</a>
+                <li class="active"><a href="{{ BASE_PATH }}/deckbuilder">Deckbuilder</a>
                 </li>
-                <li><a href="{{ BASE_PATH}}{{ site.JB.tags_path }}">Tags</a>
+                <li><a href="{{ BASE_PATH }}/howto/play">How to Play</a>
+                </li>
+                <li><a href="{{ BASE_PATH }}/howto/judge">Judge Portal</a>
+                </li>
+                <li><a href="{{ BASE_PATH }}/calendar">Calendar of Events</a>
+                </li>
+                <li><a href="{{ BASE_PATH }}/archive.html">Older Posts</a>
                 </li>
             </ul>
         </div>
@@ -53,6 +56,17 @@
         <ul class="dropdown-menu" role="menu">
             <li><a href="{% if BASE_PATH %}{{ BASE_PATH }}{% else %}/{% endif %}"><i class="fa fa-home"></i> Home</a>
             </li>
+            <li><a href="{{ BASE_PATH }}/deckbuilder">Deckbuilder</a>
+            </li>
+            <li><a href="{{ BASE_PATH }}/howto/play">How to Play</a>
+            </li>
+            <li><a href="{{ BASE_PATH }}/howto/judge">Judge Portal</a>
+            </li>
+            <li><a href="{{ BASE_PATH }}/calendar">Calendar of Events</a>
+            </li>
+            <li><a href="{{ BASE_PATH }}/archive.html">Older Posts</a>
+            </li>
+            <li class="divider"></li>
             <li><a href="{{ BASE_PATH}}{{ site.JB.categories_path }}"><i class="fa fa-folder"></i> Categories</a>
             </li>
             <li><a href="{{ BASE_PATH}}{{ site.JB.tags_path }}"><i class="fa fa-tags"></i> Tags</a>
