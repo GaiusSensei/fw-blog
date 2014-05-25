@@ -1,0 +1,133 @@
+---
+layout: page
+title: "Force of Will Deckbuilder"
+description: ""
+--- 
+{% include JB/setup %}
+
+<div class="container">
+    <div id="splash" class="row" style="display:none;">
+        <div class="col-xs-12 col-sm-offset-3 col-sm-6">
+            <br />
+            <input id="btnCardBrowser" type="button" class="btn btn-block btn-lg btn-primary" value="Card Browser" />
+            <input id="btnDeckBuilder" type="button" class="btn btn-block btn-lg btn-default" value="Deck Builder" />
+            <input id="btnLifeCounter" type="button" class="btn btn-block btn-lg btn-default" value="Life Counter" />
+            <hr />
+            <div class="col-xs-12 text-center">
+                <h3>d20 Roller</h3>
+                <div class="col-xs-6">
+                    <input id="btnRoll" type="button" class="btn btn-lg btn-block btn-success" value="Roll!" /> 
+                    <input id="btnRollClear" type="button" class="btn btn-xs btn-block btn-default" value="Clear" /> 
+                </div>
+                <div class="col-xs-6" style="font-size:1.8em;height:70px;overflow:auto;">
+                    <ul id="selRollResult" class="list-unstyled text-center">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cardbrowser" class="row" style="display:none;">
+        The Card Browser is under construction! Stay tuned :)
+    </div>
+    <div id="deckbuilder" class="row" style="display:none;">
+        The Deck Builder is under construction! Stay tuned :)
+    </div>
+    <div id="lifecounter" class="row" style="display:none;">
+        <div class="col-xs-12 col-sm-offset-4 col-sm-4">
+            <div style="height:100px;background-color:#c0c0c0;">
+                <div class="col-xs-6 text-center">
+                    <span id="txtYourHP" style="font-size:52px;">4000</span><br/>
+                    You
+                </div>
+                <div class="col-xs-6 text-center">
+                    <span id="txtOppHP" style="font-size:52px;">4000</span><br/>
+                    Opponent
+                </div>
+            </div>
+            <div class="col-xs-12 no-lr-padding">
+                <div class="col-xs-6 radio text-center">
+                    <label style="font-size:12px;">
+                        <input type="radio" id="optApplyToYou" name="optApply" />
+                        Apply to You
+                    </label>
+                </div>
+                <div class="col-xs-6 radio text-center" style="margin-top:10px;">
+                    <label style="font-size:12px;">
+                        <input type="radio" id="optApplyToOpp" name="optApply" checked />
+                        Apply to Opponent
+                    </label>
+                </div>
+                <div class="col-xs-2 no-lr-padding">
+                    <input id="btnAdd100LC" type="button" class="btn btn-lg btn-block btn-success" value="+"/>
+                </div>
+                <div class="col-xs-4 no-lr-padding">
+                    <input id="txtCurrentLC" type="text" class="input-lg" value="+ 000" style="width:100%;" disabled/>
+                </div>
+                <div class="col-xs-2 no-lr-padding">
+                    <input id="btnSub100LC" type="button" class="btn btn-lg btn-block btn-danger" value="-"/>
+                </div>
+                <div class="col-xs-4 no-lr-padding">
+                    <input id="btnSubHalfLC" type="button" class="btn btn-lg btn-block btn-warning" value="- Half"/>
+                </div>
+                <div class="col-xs-6 no-lr-padding">
+                    <input id="btnApplyLC" type="button" class="btn btn-block btn-default" value="Apply"/>
+                </div>
+                <div class="col-xs-6 no-lr-padding">
+                    <input id="btnResetLC" type="button" class="btn btn-block btn-default" value="Reset"/>
+                </div>
+            </div>
+            <div class="col-xs-12 text-center no-lr-padding" style="height:200px;overflow:auto;">
+                <h4>History</h4>
+                <div class="col-xs-6 no-lr-padding">
+                    <ul id="lstYourHp" class="list-unstyled text-center">
+                    </ul>
+                </div>
+                <div class="col-xs-6 no-lr-padding">
+                    <ul id="lstOppHp" class="list-unstyled text-center">
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 no-lr-padding">
+                <div class="col-xs-6 no-lr-padding">
+                    <input id="btnClearLC" type="button" class="btn btn-block btn-default" value="Clear"/>
+                </div>
+                <div class="col-xs-6 no-lr-padding">
+                    <input id="btnBackFromLC" type="button" class="btn btn-block btn-default" value="Back"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <span style="position:absolute;bottom:60px;right:10px;"><a href="https://github.com/GaiusSensei/fw-blog/issues">Issues? File it at Github!</a></span>
+</div>
+<script src="{{BASE_PATH}}/deckbuilder/js/simpleStorage.js"></script>
+<script src="{{BASE_PATH}}/deckbuilder/js/deckbuilder.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
